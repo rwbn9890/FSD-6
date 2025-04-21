@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: fit-content;
+    border: 20px groove green;
+    margin: auto;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    
+}
+
+.box1{
+    float: left;
+    background-color: #eeeed2;
+}
+
+.box2{
+    float: left;
+    background-color: #769656;
+}
+
+.clear{
+    clear: both;
+}
