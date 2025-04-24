@@ -1,0 +1,66 @@
+
+
+.btn{
+    padding: 6px 10px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px gray;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+    box-shadow: 0px 0px 4px orange;
+}
+
+
+
+.box{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid gray;
+
+    overflow:auto;
+}
+
+.box1{
+    margin: 10px;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: rgba(252, 50, 50, 0.16) 0px 1px 4px;
+}
+
+
+
+/* shadow class */
+
+
+.bx{
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px gray;
+}
+
+
+img{
+    box-shadow: 0px 0px 4px rgb(70, 70, 70);
+    width: 300px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+img:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    transform: translateY(-30px);
+}
