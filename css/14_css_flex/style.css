@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:50px auto;
+    max-width: 1000px;
+    max-height: 800px;
+    border: 1px solid green;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap-reverse; */
+
+    flex-flow: column wrap-reverse;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid white;
+}
+
+.container2{
+    margin:50px auto;
+    max-width: 1000px;
+    height: 600px;
+    border: 1px solid green;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+
+}
