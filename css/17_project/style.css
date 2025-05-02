@@ -3,13 +3,32 @@
     padding: 0;
     box-sizing: border-box;
  
-    font-family: arial;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 
 
 header{
     box-shadow: 1px 1px 4px gray;
+}
+
+
+.header-contact{
+    max-width: 1320px;
+    margin: auto;
+    padding: 13px 0px;
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.header-contact span{
+    padding: 8px 0px;
+}
+.header-contact .span{
+    border-right: 1px dashed gray;
+    padding-right: 10px;
 }
 .border{
     border: 1px solid red;
@@ -20,6 +39,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    font-family: "Source Code Pro", monospace;
 }
 
 .nav{
