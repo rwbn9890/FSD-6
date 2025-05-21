@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin:50px auto;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* border: 1px solid black; */
+   width: 25%;
+    padding:10px;
+}
+.card{
+box-shadow: 0px 0px 5px gray;
+border-radius: 20px;
+overflow: hidden;
+padding: 4px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+@media(max-width:991px){
+    .box{
+        width: 33.33%;
+    }
+}
+
+@media(max-width:768px){
+    .box{
+        width: 50%;
+    }
+}
+
+@media(max-width:575px)
+{
+    .box{
+        width: 100%;
+    }
+}
