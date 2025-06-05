@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+
+.top-banner{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.f_header{
+    width: 100%;
+    position: sticky;
+    top: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+.navbar{
+  
+    padding: 20px 0px;
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.navbar > div{
+    /* border: 1px solid red; */
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.nav a:hover{
+    color: red;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.nav-menu{
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
+}
+
+.nav-btn{
+display: block;
+margin-left: auto;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+
+.label{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+
+.p-1{
+    padding: 10px;
+}
+
+
+
+.bg-purple{
+    background-color: rgb(44, 1, 44);
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
