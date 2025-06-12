@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <a href="" class="logo">
+                <img src="https://www.rnwmultimedia.edu.in/assets/img/photos/rnw-logo.png" alt="">
+            </a>
+            <div class="menu">
+                <button class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse">
+                <ul class="nav">
+                    <li><a>Home</a></li>
+                    <li><a>Abouot</a></li>
+                    <li class="drop">
+                        <a>Product🔻</a>
+                        <ul class="dropdown">
+                            <li><a href="">LMS</a></li>
+                            <li><a href="">ERP</a></li>
+                            <li><a href="">E-commerce</a></li>
+                            <li><a href="">Admin Panel</a></li>
+                            <li><a href="">Data Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Contact</a></li>
+                    <li><a>Login</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </header>
+    
+</body>
+<script src="./js/jquery-3.7.1.min.js"></script>
+
+<script>
+    $(".menu-btn").click(function(){
+        $(".collapse").slideToggle("slower")
+    })
+</script>
+</html>

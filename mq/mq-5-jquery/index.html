@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mq</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button class="toggle">toggle</button>
+
+    <div class="box">
+        
+    </div>
+    
+    <button class="btn1">hide</button>
+    <button class="btn2">show</button>
+
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sequi consequatur aspernatur fugiat officiis, nulla cum cupiditate, consequuntur aliquid fugit, error dolor id saepe animi maxime laboriosam rerum. Id, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sapiente delectus deserunt tenetur iste blanditiis veritatis odit aspernatur! Quo asperiores at, culpa amet tempore adipisci impedit facere minima blanditiis eum.
+    </p>
+
+</body>
+<script src="./js/jquery-3.7.1.min.js"></script>
+
+
+<script>
+
+$(".toggle").click(function(){
+    $(".box").toggle(2000)
+})
+
+
+
+    $(".btn1").click(function(){
+        $(".para").hide("fast")
+    })
+
+    $(".btn2").click(function(){
+        $(".para").show("slower")
+    })
+</script>
+
+</html>

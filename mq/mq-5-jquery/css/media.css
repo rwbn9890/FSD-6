@@ -1,0 +1,16 @@
+
+
+
+@media(max-width:991px){
+    .nav{
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+    .collapse{
+           width: 100%;
+           display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
